@@ -5,9 +5,13 @@
   * @version V1.0
   * @date    01-December-2013
   * @brief   Default main function.
+  * TESTTTTTTTTTTINNGINGINGIGNGIGBDFH 
+
+
+
+
   ******************************************************************************
 */
-
 
 #include "lvgl.h"
 #include "app_hal.h"
@@ -16,11 +20,11 @@
 
 int main(void)
 {
-	lv_init();
+  lv_init();
 
-	hal_setup();
+  hal_setup();
 
-	demo_create();
+  demo_create();
 
-	hal_loop();
+  hal_loop();
 }
